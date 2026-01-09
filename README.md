@@ -11,8 +11,8 @@
     }
 
     * {
-      margin: 1;
-      padding: 1;
+      margin: 0;
+      padding: 0;
       box-sizing: border-box;
       font-family: Arial, Helvetica, sans-serif;
     }
@@ -64,12 +64,15 @@
     }
 
     .hero a {
-      background: var(--verde);
-      color: #fff;
-      padding: 15px 25px;
-      text-decoration: none;
-      border-radius: 5px;
-      font-size: 1.1rem;
+        min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+  url("https://images.unsplash.com/photo-1607860108855-64acf2078ed9") no-repeat center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10%;
     }
 
     section {
